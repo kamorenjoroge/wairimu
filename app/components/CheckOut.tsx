@@ -1,6 +1,6 @@
 "use client";
 import { useCartStore } from "@/lib/store/cartStore";
-import { useUser } from "@clerk/nextjs";
+import {  useUser } from "@clerk/nextjs";
 import { useState, useEffect } from "react";
 import toast from "react-hot-toast";
 import Image from "next/image";
@@ -130,14 +130,16 @@ const CheckOut = () => {
     }
   };
 
-  if (!isSignedIn) {
-    return (
-      <div className="max-w-6xl mx-auto px-4 py-8 text-center">
-        <h1 className="text-2xl font-bold mb-4">Please sign in to checkout</h1>
-        <p>Redirecting to sign in page...</p>
-      </div>
-    );
-  }
+
+
+if (!isSignedIn) {
+  return (
+   <div>
+
+   </div>
+  );
+}
+
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
