@@ -239,7 +239,7 @@ const ProductList = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-back/80 via-white to-primary/10 mb-20">
+    <div className="min-h-screen bg-gradient-to-br from-primary/80 via-white to-primary/90 mb-20">
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Notification */}
         <AnimatePresence>

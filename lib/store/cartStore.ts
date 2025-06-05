@@ -42,7 +42,7 @@ export const useCartStore = create<CartStore>()(
                 : item
             );
             
-            toast.success(`Added ${quantity} more ${product.name} (${existingItem.quantity + quantity} total)`);
+            toast.success(`Added   ${product.name} Item ${quantity} (${existingItem.quantity + quantity} total)`);
             return { cart: updatedCart };
           } else {
             toast.success(`${quantity} ${product.name} added to cart`);

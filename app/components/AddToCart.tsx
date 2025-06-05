@@ -50,7 +50,6 @@ const AddtoCart = ({
       );
       
       setIsAdded(true);
-      toast.success(`${productName} added to cart`);
       setTimeout(() => setIsAdded(false), 3000);
     } catch (error) {
       toast.error("Failed to add to cart");
@@ -125,12 +124,7 @@ const AddtoCart = ({
         )}
       </motion.button>
 
-      {productQuantity > 0 && (
-        <div className="text-sm text-gray-500">
-          <span className="text-secondary"> {productQuantity} </span>
-          Available
-        </div>
-      )}
+     
     </div>
   );
 };
