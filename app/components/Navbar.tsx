@@ -43,7 +43,7 @@ const Navbar = () => {
             </Link>
             
             <Link
-              href="/user/shop"
+              href="/shop"
               className="group relative px-4 py-2 rounded-lg transition-all duration-300 hover:bg-primary/5"
             >
               <span className="text-gray-700 group-hover:text-primary font-medium text-base">
@@ -53,7 +53,7 @@ const Navbar = () => {
             </Link>
             
             <Link
-              href="/user/orders"
+              href="/orders"
               className="group relative px-4 py-2 rounded-lg transition-all duration-300 hover:bg-primary/5"
             >
               <span className="text-gray-700 group-hover:text-primary font-medium text-base">
@@ -63,7 +63,7 @@ const Navbar = () => {
             </Link>
             
             <Link
-              href="/user/checkout"
+              href="/checkout"
               className="ml-2 px-6 py-2.5 bg-gradient-to-r from-primary to-primary/90 text-white font-medium rounded-full hover:shadow-lg hover:shadow-primary/25 transition-all duration-300 hover:scale-105"
             >
               Checkout
