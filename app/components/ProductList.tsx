@@ -485,13 +485,16 @@ const ProductList = () => {
                     />
                     </div>
 
-                        
-                        <Link href={`/user/list/${product._id}`}>
+                        <div>
+                        <Link href={`/list/${product._id}`}>
                           <button className="w-full bg-white border-2 border-gray-200 text-gray-700 py-2 px-4 rounded-lg hover:border-primary hover:text-primary font-semibold transition-all duration-300 flex items-center justify-center gap-2 group/btn text-sm">
                             <FiEye className="text-sm group-hover/btn:scale-110 transition-transform duration-200" />
                             View Details
                           </button>
                         </Link>
+
+                        </div>
+                        
                       </div>
                     </div>
                   </div>

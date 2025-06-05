@@ -65,7 +65,7 @@ const Cart = () => {
   }
 
   return (
-    <div className='relative' ref={dropdownRef}>
+    <div className='relative ' ref={dropdownRef}>
       <button 
         className='text-dark hover:text-primary flex items-center transition-colors duration-200 group'
         onClick={() => setIsCartOpen(!isCartOpen)}
