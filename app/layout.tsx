@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import MobileMenu from "./components/MobileMenu";
 import { Toaster } from "react-hot-toast";
 import { ClerkProvider } from "@clerk/nextjs";
+import Footers from "./components/Footers";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,6 +37,7 @@ export default function RootLayout({
         {children}
         <MobileMenu/>
          <Toaster position="top-right" />
+         <Footers/>
       </body>
     </html>
     </ClerkProvider>
