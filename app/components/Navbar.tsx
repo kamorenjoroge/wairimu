@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo section */}
           <div className="flex-shrink-0">
-            <Link href="/user" className="flex items-center group">
+            <Link href="/" className="flex items-center group">
               <div className="h-12 w-12 relative transition-all duration-300 group-hover:scale-105">
                 <Image
                   src="/logo.png"
